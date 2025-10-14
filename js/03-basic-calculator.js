@@ -1,11 +1,29 @@
 // ADD A FUNCTION CALLED CALCULATE
 
 function calculate() {
+while (true) {
     let x = parseFloat(prompt("Pick a first number"))
     let y = parseFloat(prompt("Pick a second number"))
     let operation = prompt("What kind of operation do you want to perform; add, subtract, divide, or multiply?")
-    console.log(x, y)
+
+    if (operation === 'add') {
+        console.log(x + y)
+        break
+    } else if (operation === 'subtract') {
+        console.log(x - y)
+        break
+    } else if (operation === 'multiply') {
+        console.log(x * y)
+        break
+    } else if (operation === 'divide') {
+        console.log(x / y)
+        break
+    } else {
+        alert('Try again!')
+    }
 }
+}
+
 calculate()
 
 // COLLECT FIRST NUMBER FROM USER
