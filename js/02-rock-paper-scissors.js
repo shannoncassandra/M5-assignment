@@ -1,4 +1,4 @@
-function rockPaperScissors() {
+/*function rockPaperScissors() {
     let rpsYou = prompt('Pick rock, paper, or scissors!')
     let rpsComp = (Math.floor(Math.random() * 3) + 1) 
     
@@ -30,4 +30,9 @@ function rockPaperScissors() {
         console.log('That is not an option!')
     }
 }
-rockPaperScissors()
+rockPaperScissors()*/
+
+let employees = [["Jessica",10], ["Zak",9], ["Fred",15], ["Mike",5]];
+for (let i = 1; i < employees.length; i++) {
+     console.log(employees[i][0] + " " + employees[i][1]);
+}
